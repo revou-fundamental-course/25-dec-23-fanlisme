@@ -3,16 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- LINK GOOGLE FONT -->
+    <!-- LINK GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap"rel="stylesheet"/>
     <!-- LINK STYLE CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Katik</title>
   </head>
   <body>
 
-    
+    <main class="main-content">
+      <h1>Luas Segitiga</h1>
+      <img src="asset/rumus-one.svg" alt="rumus mus mus mus">
+      <section class="area-triangle">
+        <p>Rumus Luas Segitiga :</p>
+        <p class="area-center">L = 1/2 x a x t</p>
+        <p>Di mana:
+          <br> L = Luas Segitiga
+          <br> a = Panjang Atas
+          <br> t = Tinggi
+        </p>
+        <form action="">
+          <label for="count-area">Panjang Atas :</label><br>
+          <input type="number" id="count-area" placeholder=" Nilai Alas" required><br>
+          <label for="count-area">Panjang Atas :</label><br>
+          <input type="number" id="count-area" placeholder=" Nilai Tinggi" required><br>
+          <div class="btn">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
   </body>
 </html>
